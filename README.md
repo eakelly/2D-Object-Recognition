@@ -1,10 +1,9 @@
 # 2D-Object-Recognition
 
-*******************************
-* Elizabeth Kelly		*	
-* Computational Vision HW 2	*			
-* September 23, 2016		*
-*******************************
+Elizabeth Kelly		
+Computational Vision HW 2		
+September 23, 2016		
+
 
 *************************************************************************
 This program is a vision system that performs 2D object recognition in   
