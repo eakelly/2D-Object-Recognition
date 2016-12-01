@@ -31,8 +31,6 @@ bool ConvertToBinary(string in_file, string out_file, int threshold) {
     //scan the image and set the pixels using the threshold
     for (int i = 0; i < orig_image.num_rows(); ++i) {
         for (int j = 0; j < orig_image.num_columns(); ++j) {
-            cout << i << " " << j << endl;
-
             if (orig_image.GetPixel(i, j) < threshold) {
                 orig_image.SetPixel(i, j, 0); //make the pixel black
             }
