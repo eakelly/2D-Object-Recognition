@@ -20,8 +20,6 @@ Before running this program, run the following commands in a terminal window:
   make all
   ```
   
-*************************************************************************			    
-
 ## Running the Program
 
 This program is separated into four parts:
