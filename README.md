@@ -34,12 +34,10 @@ To run this program, enter the following in a terminal window:
 
 ```./p1 <input gray-level image> <threshold value> binary_output.pgm```
 
-**The threshold value that works best for all three input files
-(two_objects.pgm, many_objects_1.pgm, and many_objects_2.pgm) is 115**
+**The threshold value that works best for all three input files is 115.**
 
-The input file is ```two_objects.pgm```.
-
-The filename for the output binary image is ```binary_output.pgm```.
+The input file is ```two_objects.pgm```, ```many_objects_1.pgm```, ```many_objects_2.pgm```. 
+The filename for the output binary image is ```binary_output.pgm```. 
 
 *************************************************************************
 
@@ -47,13 +45,13 @@ The filename for the output binary image is ```binary_output.pgm```.
 
 Takes a binary image as input and segments the image into several connected regions using the sequential labeling algorithm. The output image should have each object be a single, distinct gray-level based on the label they were given during the raster scan. 
 
-To run this program, enter the following on the command line:<br />
+To run this program, enter the following on the command line:
 
 ```./p2 binary_output.pgm labeled_output.pgm```
 
-The filename for the input binary image is ```binary_output.pgm```.
 
-The filename for the output labeled image is ```labeled_output.pgm```.
+The filename for the input binary image is ```binary_output.pgm```. 
+The filename for the output labeled image is ```labeled_output.pgm```. 
 
 **Note: Some of the object gray-levels may look similar, but the labels 
 are distinct.**
@@ -68,9 +66,9 @@ To run this program, enter the following in a terminal window:
 
 ```./p3 labeled_output.pgm database.txt attributes.pgm```
 
-The filename for the input labeled image is ```labeled_output.pgm```
-The filename for the output database is ```database.txt```
-The filename for the output image is ```attributes.pgm```
+The filename for the input labeled image is ```labeled_output.pgm```. 
+The filename for the output database is ```database.txt```. 
+The filename for the output image is ```attributes.pgm```. 
 
 *************************************************************************
 
@@ -82,9 +80,9 @@ To run this program, enter the following in a terminal window:
 
 ```./p4 labeled_output.pgm database.txt matched_objects.pgm```
 
-The filename for the input labeled image is ```labeled_output.pgm```.
-The filename for the input database is ```database.txt```.
-The filename for the output image is ```matched_objects.pgm```.
+The filename for the input labeled image is ```labeled_output.pgm```. 
+The filename for the input database is ```database.txt```. 
+The filename for the output image is ```matched_objects.pgm```. 
 
 *************************************************************************
 
