@@ -38,7 +38,8 @@ To run this program, enter the following in a terminal window:
 (two_objects.pgm, many_objects_1.pgm, and many_objects_2.pgm) is 115**
 
 The input file is ```two_objects.pgm```.
-The filename for the output binary image is binary_output.pgm.
+
+The filename for the output binary image is ```binary_output.pgm```.
 
 *************************************************************************
 
