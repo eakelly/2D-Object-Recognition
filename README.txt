@@ -66,7 +66,7 @@ To run this program, enter the following on the command line:
 ./p3 <input labeled image> <output database> <output image>
 
 The filename for the input labeled image is labeled_output.pgm
-The filename for the output database is database.pgm
+The filename for the output database is database.txt
 The filename for the output image is attributes.pgm
 
 *************************************************************************
@@ -80,7 +80,7 @@ To run this program, enter the following on the command line:
 ./p4 <input labeled image> <input database> <output image>
 
 The filename for the input labeled image is labeled_output.pgm
-The filename for the input database is database.pgm
+The filename for the input database is database.txt
 The filename for the output image is matched_objects.pgm
 
 *************************************************************************
