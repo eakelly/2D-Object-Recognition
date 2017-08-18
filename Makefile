@@ -30,25 +30,25 @@ LIBS_ALL =  -L/usr/lib -L/usr/local/lib
 
 
 #First Program (ListTest)
-Cpp_OBJ1=Image.o p1.o
+Cpp_OBJ1=source/Image.o source/p1.o
 PROGRAM_1=p1
 $(PROGRAM_1): $(Cpp_OBJ1)
 	g++ $(C++FLAG) -o $(EXEC_DIR)/$@ $(Cpp_OBJ1) $(INCLUDES) $(LIBS_ALL)
 
 #Second Program (ListTest)
-Cpp_OBJ2=Image.o p2.o DisjSets.o
+Cpp_OBJ2=source/Image.o source/p2.o source/DisjSets.o
 PROGRAM_2=p2
 $(PROGRAM_2): $(Cpp_OBJ2)
 	g++ $(C++FLAG) -o $(EXEC_DIR)/$@ $(Cpp_OBJ2) $(INCLUDES) $(LIBS_ALL)
 
 #Third Program (ListTest)
-Cpp_OBJ3=Image.o p3.o
+Cpp_OBJ3=source/Image.o source/p3.o
 PROGRAM_3=p3
 $(PROGRAM_3): $(Cpp_OBJ3)
 	g++ $(C++FLAG) -o $(EXEC_DIR)/$@ $(Cpp_OBJ3) $(INCLUDES) $(LIBS_ALL)
 
 #Fourth Program (ListTest)
-Cpp_OBJ4=Image.o p4.o
+Cpp_OBJ4=source/Image.o source/p4.o
 PROGRAM_4=p4
 $(PROGRAM_4): $(Cpp_OBJ4)
 	g++ $(C++FLAG) -o $(EXEC_DIR)/$@ $(Cpp_OBJ4) $(INCLUDES) $(LIBS_ALL)
@@ -61,6 +61,6 @@ all:
 
 
 clean:
-	(rm -f *.o;)
+	cd source;(rm -f *.o;)
 
 (:
